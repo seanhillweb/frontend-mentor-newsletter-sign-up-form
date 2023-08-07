@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <button
           type="submit"
-          className="inline-block w-full px-4 py-3 bg-charcoal text-white font-semibold text-center rounded-lg focus:border-none focus:ring-transparent hover:bg-gradient-to-r hover:from-[#FF527B] hover:to-[#FF6A3A] focus:bg-gradient-to-r focus:from-[#FF527B] focus:to-[#FF6A3A]"
+          className="inline-block w-full px-4 py-3 bg-slate text-white font-semibold text-center rounded-lg focus:border-none focus:ring-transparent hover:bg-gradient-to-r hover:from-[#FF527B] hover:to-[#FF6A3A] focus:bg-gradient-to-r focus:from-[#FF527B] focus:to-[#FF6A3A]"
         >
           Subscribe to monthly newsletter
         </button>
@@ -84,7 +84,6 @@ export default function Home() {
             alt="checkmark"
             width={64}
             height={64}
-            priority
             aria-hidden={true}
           />
           <h1 className="text-4xl lg:text-6xl font-semibold mt-12 mb-6">
@@ -99,7 +98,7 @@ export default function Home() {
         </div>
         <button
           onClick={handleClick}
-          className="inline-block w-full px-4 py-3 bg-charcoal text-white font-semibold text-center rounded-lg focus:border-none focus:ring-transparent hover:bg-gradient-to-r hover:from-[#FF527B] hover:to-[#FF6A3A] focus:bg-gradient-to-r focus:from-[#FF527B] focus:to-[#FF6A3A]"
+          className="inline-block w-full px-4 py-3 bg-slate text-white font-semibold text-center rounded-lg focus:border-none focus:ring-transparent hover:bg-gradient-to-r hover:from-[#FF527B] hover:to-[#FF6A3A] focus:bg-gradient-to-r focus:from-[#FF527B] focus:to-[#FF6A3A]"
         >
           Dismiss message
         </button>
@@ -125,7 +124,6 @@ export default function Home() {
                 alt="Illustration of a tablet, web browser, graphs, and charts"
                 width={375}
                 height={284}
-                priority
               />
             </div>
             <div className="relative hidden lg:block">
@@ -134,7 +132,6 @@ export default function Home() {
                 alt="Illustration of a tablet, web browser, graphs, and charts"
                 width={400}
                 height={593}
-                priority
               />
             </div>
           </div>
@@ -153,7 +150,6 @@ export default function Home() {
                     alt="checkmark"
                     width={21}
                     height={21}
-                    priority
                     aria-hidden={true}
                   />
                   <span>Product discovery and building what matters</span>
@@ -164,7 +160,6 @@ export default function Home() {
                     alt="checkmark"
                     width={21}
                     height={21}
-                    priority
                     aria-hidden={true}
                   />
                   <span>Measuring to ensure updates are a success</span>
@@ -175,7 +170,6 @@ export default function Home() {
                     alt="checkmark"
                     width={21}
                     height={21}
-                    priority
                     aria-hidden={true}
                   />
                   <span>And much more!</span>
